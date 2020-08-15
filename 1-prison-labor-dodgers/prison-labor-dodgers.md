@@ -16,6 +16,10 @@ In each test case, the lists x and y will always contain n non-unique integers w
 
 I was given 48 hours to complete this challenge. The difficulty was pretty much equivalent to an easy LeetCode / interview question, but a little more fleshed out content wise. Since I wanted to keep track of the outlier of both arrays, I checked which of the two arrays was bigger and then track the numbers of the bigger array via HashMap. Since it's guaranteed that there will be one outlier, when you check the smaller array, you'll want to check if its count in the HashMap is 0, or if it doesn't even exist at all. If so, just return that value.
 
+### Takeaways:
+
+- None... yet.
+
 ##### Completion Time: Around 3 hours
 
 ---

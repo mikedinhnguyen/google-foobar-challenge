@@ -23,7 +23,12 @@ Given a minion ID as a string n representing a nonnegative integer of length k i
 
 I was given 72 hours to complete this challenge. This one was pretty interesting! There was a lot of confusion at first about using different bases besides base 10, but I was really interested to learn more about it. At first, I tried to figure out how to base convert for every base number, until I realized the method is present in the Integer class, making life pretty easy for me. I keep an ArrayList as storage of numbers I have already obtained, including our starting number. I convert the x and y to base 10, if needed, and then do the math for z. Check if z is a number we have visited already. If not, we rinse and repeat, or rather rinse and recurse, until we find a cycle or a constant, in which we return the correct length for either case.
 
-##### Completion Time: Around 4 hours
+### Takeaways:
+
+- Learned about converting to base *n*
+- Refreshed on keeping track of cycles
+
+##### Completion Time: 3 hours, 59 minutes, 19 seconds
 
 ---
 Java code:
@@ -99,6 +104,6 @@ public static int solution(String n, int b) {
 
 ---
 
-![Passing all test cases](https://github.com/mikeybear/google-foobar-challenge/blob/master/images/Screen%20Shot%202020-07-28%20at%203.23.52%20PM.png)
+![Passing all test cases](https://github.com/mikedinhnguyen/google-foobar-challenge/blob/master/images/Screen%20Shot%202020-07-28%20at%203.23.52%20PM.png)
 
-![A successful submission](https://github.com/mikeybear/google-foobar-challenge/blob/master/images/Screen%20Shot%202020-07-28%20at%203.35.10%20PM.png)
+![A successful submission](https://github.com/mikedinhnguyen/google-foobar-challenge/blob/master/images/Screen%20Shot%202020-07-28%20at%203.35.10%20PM.png)

@@ -140,4 +140,4 @@ public static String[] solution(String[] l) {
 
 ---
 
-![A successful submission](https://github.com/mikeybear/google-foobar-challenge/blob/master/images/Screen%20Shot%202020-07-28%20at%203.35.10%20PM.png)
+![A successful submission](https://github.com/mikedinhnguyen/google-foobar-challenge/blob/master/images/Screen%20Shot%202020-07-29%20at%201.56.45%20PM.png)
