@@ -17,12 +17,12 @@ And finally, you were only able to smuggle one of each type of bomb - one Mach, 
 
 You need to know how many replication cycles (generations) it will take to generate the correct amount of bombs to destroy the LAMBCHOP. Write a function solution(M, F) where M and F are the number of Mach and Facula bombs needed. Return the fewest number of generations (as a string) that need to pass before you'll have the exact number of bombs necessary to destroy the LAMBCHOP, or the string "impossible" if this can't be done! M and F will be string representations of positive integers no larger than 10<sup>50</sup>. For example, if M = "2" and F = "1", one generation would need to pass, so the solution would be "1". However, if M = "2" and F = "4", it would not be possible.
 
--- Test cases --
-Input: Solution.solution('2', '1')
-Output: 1
-
-Input: Solution.solution('4', '7')
-Output: 4
+-- Test cases --  
+Input: Solution.solution('2', '1')  
+Output: 1  
+  
+Input: Solution.solution('4', '7')  
+Output: 4  
 
 ---
 ### Approach:
@@ -30,13 +30,13 @@ Output: 4
 I was given 96 hours to complete this challenge. Okay, we're starting to sweat a little here. This was really more math based and puzzle oriented. They ask you to see how many bombs replicate off of each other and the lowest numbers needed to get there. I struggled on this for quite a bit, and it really didn't hit me until the next day, literally while I was in the shower. I used my finger and the condensation on my glass shower wall to confirm this was correct. In reality, this problem isn't as hard as it looks! You basically want to see how many time one bomb can go into another and then subtract one bomb's current number with the other and repeat until we are down to one of both bombs or we go over and it's impossible. An example might suit a better explanation:
 
 Say we have 4 Mach bombs and 10 Facula bombs:       
-`(4, 11), count: 0`
-We can see the Mach bombs are less than Facula and see how many times Mach goes into Facula, count it, and subtract Facula from Mach:            
-`(4, 3), count: 2`
+`(4, 11), count: 0`  
+We can see the Mach bombs are less than Facula and see how many times Mach goes into Facula, count it, and subtract Facula from Mach:      
+`(4, 3), count: 2`  
 Now Facula has less than Mach, so we check how many times Facula goes into Mach:               
-`(1, 3), count: 3`
+`(1, 3), count: 3`  
 We do the same thing here, and we should check that we have only one of each bombs:          
-`(1, 1), count: 5`
+`(1, 1), count: 5`  
 
 ![Wait... what?](https://github.com/mikedinhnguyen/google-foobar-challenge/blob/master/images/Screen%20Shot%202020-08-03%20at%209.49.35%20PM.png)
 
