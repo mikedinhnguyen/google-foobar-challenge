@@ -188,7 +188,7 @@ static public int[] convertDecimalToFraction(double x){
 
     // LCM
     int[] array = new int[denoms.length];  
-    
+
     for (int i = 0; i < array.length; i++) {
       array[i] = denoms[i];
     }
@@ -210,6 +210,6 @@ static public int[] convertDecimalToFraction(double x){
 ``` 
 
 Some helpful links:  
-[Converting Decimal to Fractions](https://stackoverflow.com/questions/56684745/converting-decimal-into-fractions-java-and-python-gives-different-output)
-[How to find inverse matrix in Java](https://www.sanfoundry.com/java-program-find-inverse-matrix/)
-[Doomsday Fuel Test Cases](https://pastebin.com/HAiEwnD2)
+- [Converting Decimal to Fractions](https://stackoverflow.com/questions/56684745/converting-decimal-into-fractions-java-and-python-gives-different-output)  
+- [How to find inverse matrix in Java](https://www.sanfoundry.com/java-program-find-inverse-matrix/)  
+- [Doomsday Fuel Test Cases](https://pastebin.com/HAiEwnD2)  
