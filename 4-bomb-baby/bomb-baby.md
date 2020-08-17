@@ -1,5 +1,5 @@
 
-## Challenge 3, Round 1: Bomb, Baby!
+## Level 3, Challenge 1: Bomb, Baby!
 
 ### Prompt: 
 

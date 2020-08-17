@@ -1,5 +1,5 @@
 
-## Challenge 2, Round 1: Hey, I Already Did That!
+## Level 2, Challenge 1: Hey, I Already Did That!
 
 ### Prompt: 
 
